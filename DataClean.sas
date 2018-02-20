@@ -1,5 +1,5 @@
 PROC IMPORT 
-        DATAFILE= "C:\Users\VenksUV\Desktop\HHUSA-Project\Contact_new.csv"
+        DATAFILE= "C:\Users\PraneethBomma\Desktop\HHUSA-Project\Contact_new.csv"
 OUT=contact dbms=csv  
       REPLACE;
     GETNAMES= YES;
