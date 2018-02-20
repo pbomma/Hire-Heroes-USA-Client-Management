@@ -36,7 +36,7 @@ if (selected =1) then output;run;
 
 ---------------------------------------------------------------------------------------------------------------
 PROC IMPORT 
-        DATAFILE= "C:\Users\VenksUV\Desktop\HHUSA-Project\Contact_Log.csv"
+        DATAFILE= "C:\Users\PraneethBomma\Desktop\HHUSA-Project\Contact_Log.csv"
 OUT=contact dbms=csv  
       REPLACE;
     GETNAMES= YES;
